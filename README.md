@@ -20,3 +20,11 @@ npm install json-utils
 ## License
 
 MIT
+
+
+## Usage
+
+```typescript
+import { } from 'json-utils';
+// See API section for available functions
+```
