@@ -1,3 +1,6 @@
+
+// Type exports for consumers
+// Add specific types as needed
 export function safeJsonStringify(obj: unknown, space?: number): string {
   const seen = new WeakSet();
   return JSON.stringify(obj, (key, value) => {
